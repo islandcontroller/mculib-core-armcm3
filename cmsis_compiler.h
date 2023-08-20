@@ -30,7 +30,7 @@
 /*
  * GNU Compiler
  */
-#elif defined ( __GNUC__ )
+#if defined ( __GNUC__ )
   #include "cmsis_gcc.h"
 #else
   #error Unknown compiler.
